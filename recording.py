@@ -1,6 +1,7 @@
 import pyaudio
 import webrtcvad
 import collections
+
 import numpy as np
 
 # Recording parameters (shared across the project)

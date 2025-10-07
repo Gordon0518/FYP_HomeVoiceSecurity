@@ -37,6 +37,7 @@ class SimpleGUIRecorder:
     def record_and_process(self):
         try:
             # Record audio with VAD
+
             audio_data = record_vad_audio()
 
             # Process with STT
